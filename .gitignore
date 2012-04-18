@@ -1,0 +1,8 @@
+# Ficheros del Mac
+.DS_Store
+
+# Ficheros de backup del vi
+*.swp
+
+# Ficheros temporales de gitk
+/.gitk*/

@@ -26,7 +26,8 @@
 
 - (void)testExample
 {
-    STFail(@"Unit tests are not implemented yet in iOSTutorialTests");
+// Test de ejemplo que viene con la plantilla de Xcode. Por ahora simplemente lo comentamos para que no moleste mucho ;)
+//    STFail(@"Unit tests are not implemented yet in iOSTutorialTests");
 }
 
 @end

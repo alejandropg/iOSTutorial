@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA2299601542AEBE00B89242 /* GpsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA8758841542835A006D9CB8 /* GpsViewController.m */; };
 		FA2BC342153C8B9000BE605D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA2BC341153C8B9000BE605D /* UIKit.framework */; };
 		FA2BC344153C8B9000BE605D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA2BC343153C8B9000BE605D /* Foundation.framework */; };
 		FA2BC346153C8B9000BE605D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA2BC345153C8B9000BE605D /* CoreGraphics.framework */; };
@@ -20,8 +21,18 @@
 		FA2BC362153C8B9000BE605D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA2BC343153C8B9000BE605D /* Foundation.framework */; };
 		FA2BC36A153C8B9000BE605D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FA2BC368153C8B9000BE605D /* InfoPlist.strings */; };
 		FA2BC36D153C8B9000BE605D /* iOSTutorialTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA2BC36C153C8B9000BE605D /* iOSTutorialTests.m */; };
+		FA4F9DC115440B4000D0494F /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA4F9DC015440B4000D0494F /* MapKit.framework */; };
+		FA4F9DC915443CF900D0494F /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = FA4F9DC315443CF900D0494F /* Icon-72.png */; };
+		FA4F9DCA15443CF900D0494F /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = FA4F9DC415443CF900D0494F /* Icon-Small-50.png */; };
+		FA4F9DCB15443CF900D0494F /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = FA4F9DC515443CF900D0494F /* Icon-Small.png */; };
+		FA4F9DCC15443CF900D0494F /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FA4F9DC615443CF900D0494F /* Icon-Small@2x.png */; };
+		FA4F9DCD15443CF900D0494F /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = FA4F9DC715443CF900D0494F /* Icon.png */; };
+		FA4F9DCE15443CF900D0494F /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FA4F9DC815443CF900D0494F /* Icon@2x.png */; };
 		FA849FC7153CA885002AB4DF /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = FA849FC5153CA885002AB4DF /* Localizable.strings */; };
 		FA849FCB153D4DCD002AB4DF /* prohibidos-monos-lagartos-300x300.gif in Resources */ = {isa = PBXBuildFile; fileRef = FA849FC9153D4DCD002AB4DF /* prohibidos-monos-lagartos-300x300.gif */; };
+		FA98B63015402DDD0045FE1C /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA98B62F15402DDD0045FE1C /* CoreLocation.framework */; };
+		FA98B63015402DDD0045FE1E /* GpsTest.m in Sources */ = {isa = PBXBuildFile; fileRef = FA98B63015402DDD0045FE1D /* GpsTest.m */; };
+		FA98B6361541B9FA0045FE1C /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA98B62F15402DDD0045FE1C /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,11 +66,23 @@
 		FA2BC36B153C8B9000BE605D /* iOSTutorialTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iOSTutorialTests.h; sourceTree = "<group>"; };
 		FA2BC36C153C8B9000BE605D /* iOSTutorialTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSTutorialTests.m; sourceTree = "<group>"; };
 		FA2BC376153C8F9600BE605D /* es */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = es; path = es.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		FA4F9DC015440B4000D0494F /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		FA4F9DC315443CF900D0494F /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-72.png"; path = "../../../../../kk/Icon-72.png"; sourceTree = "<group>"; };
+		FA4F9DC415443CF900D0494F /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small-50.png"; path = "../../../../../kk/Icon-Small-50.png"; sourceTree = "<group>"; };
+		FA4F9DC515443CF900D0494F /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small.png"; path = "../../../../../kk/Icon-Small.png"; sourceTree = "<group>"; };
+		FA4F9DC615443CF900D0494F /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small@2x.png"; path = "../../../../../kk/Icon-Small@2x.png"; sourceTree = "<group>"; };
+		FA4F9DC715443CF900D0494F /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = ../../../../../kk/Icon.png; sourceTree = "<group>"; };
+		FA4F9DC815443CF900D0494F /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "../../../../../kk/Icon@2x.png"; sourceTree = "<group>"; };
 		FA849FC6153CA885002AB4DF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		FA849FC8153CA8BC002AB4DF /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
 		FA849FCA153D4DCD002AB4DF /* en */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = en; path = "en.lproj/prohibidos-monos-lagartos-300x300.gif"; sourceTree = "<group>"; };
 		FA849FCC153D4E8E002AB4DF /* es */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = es; path = "es.lproj/prohibidos-monos-lagartos-300x300.gif"; sourceTree = "<group>"; };
 		FA849FCD153D628F002AB4DF /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FA8758831542835A006D9CB8 /* GpsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GpsViewController.h; sourceTree = "<group>"; };
+		FA8758841542835A006D9CB8 /* GpsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GpsViewController.m; sourceTree = "<group>"; };
+		FA98B62F15402DDD0045FE1C /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		FA98B63015402DDD0045FE1D /* GpsTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GpsTest.m; sourceTree = "<group>"; };
+		FA98B63015402DDD0045FE1F /* GpsTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GpsTest.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +90,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA4F9DC115440B4000D0494F /* MapKit.framework in Frameworks */,
+				FA98B63015402DDD0045FE1C /* CoreLocation.framework in Frameworks */,
 				FA2BC342153C8B9000BE605D /* UIKit.framework in Frameworks */,
 				FA2BC344153C8B9000BE605D /* Foundation.framework in Frameworks */,
 				FA2BC346153C8B9000BE605D /* CoreGraphics.framework in Frameworks */,
@@ -80,6 +105,7 @@
 				FA2BC360153C8B9000BE605D /* SenTestingKit.framework in Frameworks */,
 				FA2BC361153C8B9000BE605D /* UIKit.framework in Frameworks */,
 				FA2BC362153C8B9000BE605D /* Foundation.framework in Frameworks */,
+				FA98B6361541B9FA0045FE1C /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -108,10 +134,12 @@
 		FA2BC340153C8B9000BE605D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				FA2BC341153C8B9000BE605D /* UIKit.framework */,
-				FA2BC343153C8B9000BE605D /* Foundation.framework */,
 				FA2BC345153C8B9000BE605D /* CoreGraphics.framework */,
+				FA98B62F15402DDD0045FE1C /* CoreLocation.framework */,
+				FA2BC343153C8B9000BE605D /* Foundation.framework */,
+				FA4F9DC015440B4000D0494F /* MapKit.framework */,
 				FA2BC35F153C8B9000BE605D /* SenTestingKit.framework */,
+				FA2BC341153C8B9000BE605D /* UIKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -121,6 +149,8 @@
 			children = (
 				FA2BC350153C8B9000BE605D /* AppDelegate.h */,
 				FA2BC351153C8B9000BE605D /* AppDelegate.m */,
+				FA8758831542835A006D9CB8 /* GpsViewController.h */,
+				FA8758841542835A006D9CB8 /* GpsViewController.m */,
 				FA2BC353153C8B9000BE605D /* MainStoryboard.storyboard */,
 				FA2BC356153C8B9000BE605D /* ViewController.h */,
 				FA2BC357153C8B9000BE605D /* ViewController.m */,
@@ -132,6 +162,12 @@
 		FA2BC348153C8B9000BE605D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				FA4F9DC315443CF900D0494F /* Icon-72.png */,
+				FA4F9DC415443CF900D0494F /* Icon-Small-50.png */,
+				FA4F9DC515443CF900D0494F /* Icon-Small.png */,
+				FA4F9DC615443CF900D0494F /* Icon-Small@2x.png */,
+				FA4F9DC715443CF900D0494F /* Icon.png */,
+				FA4F9DC815443CF900D0494F /* Icon@2x.png */,
 				FA849FC9153D4DCD002AB4DF /* prohibidos-monos-lagartos-300x300.gif */,
 				FA849FC5153CA885002AB4DF /* Localizable.strings */,
 				FA2BC349153C8B9000BE605D /* iOSTutorial-Info.plist */,
@@ -145,6 +181,8 @@
 		FA2BC365153C8B9000BE605D /* iOSTutorialTests */ = {
 			isa = PBXGroup;
 			children = (
+				FA98B63015402DDD0045FE1F /* GpsTest.h */,
+				FA98B63015402DDD0045FE1D /* GpsTest.m */,
 				FA2BC36B153C8B9000BE605D /* iOSTutorialTests.h */,
 				FA2BC36C153C8B9000BE605D /* iOSTutorialTests.m */,
 				FA2BC366153C8B9000BE605D /* Supporting Files */,
@@ -237,6 +275,12 @@
 				FA2BC355153C8B9000BE605D /* MainStoryboard.storyboard in Resources */,
 				FA849FC7153CA885002AB4DF /* Localizable.strings in Resources */,
 				FA849FCB153D4DCD002AB4DF /* prohibidos-monos-lagartos-300x300.gif in Resources */,
+				FA4F9DC915443CF900D0494F /* Icon-72.png in Resources */,
+				FA4F9DCA15443CF900D0494F /* Icon-Small-50.png in Resources */,
+				FA4F9DCB15443CF900D0494F /* Icon-Small.png in Resources */,
+				FA4F9DCC15443CF900D0494F /* Icon-Small@2x.png in Resources */,
+				FA4F9DCD15443CF900D0494F /* Icon.png in Resources */,
+				FA4F9DCE15443CF900D0494F /* Icon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +318,7 @@
 				FA2BC34E153C8B9000BE605D /* main.m in Sources */,
 				FA2BC352153C8B9000BE605D /* AppDelegate.m in Sources */,
 				FA2BC358153C8B9000BE605D /* ViewController.m in Sources */,
+				FA2299601542AEBE00B89242 /* GpsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +327,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA2BC36D153C8B9000BE605D /* iOSTutorialTests.m in Sources */,
+				FA98B63015402DDD0045FE1E /* GpsTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

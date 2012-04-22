@@ -6,3 +6,7 @@
 
 # Ficheros temporales de gitk
 /.gitk*/
+
+# Ficheros del AppCode
+.idea/
+

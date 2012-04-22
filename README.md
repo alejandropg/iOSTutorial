@@ -8,4 +8,5 @@ La idea es ir generando una etiqueta por cada tutorial, ya no que me parece que 
 ## Lista de etiquetas hasta el momento ##
 
 * i18n - Ejemplo de [internacionalización](http://kcy.me/81r8). [Tutorial en AdictosAlTrabajo](http://kcy.me/83de)
+* gps - Ejemplo de los sistemas de localización (GPS, ...).
 
